@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('/assets/fonts/fontello.eot?32886402');
+  src: url('/assets/fonts/fontello.eot?32886402#iefix') format('embedded-opentype'),
+       url('/assets/fonts/fontello.woff2?32886402') format('woff2'),
+       url('/assets/fonts/fontello.woff?32886402') format('woff'),
+       url('/assets/fonts/fontello.ttf?32886402') format('truetype'),
+       url('/assets/fonts/fontello.svg?32886402#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bg-white {
+  background: white;
+}
+
+.navbar {
+  border-radius: 0;
+  padding: 1rem 1rem 1.5rem;
+  box-shadow: 0 0 2px 1px #eee;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #444;
+}
+
+.navbar-nav .nav-link_current {
+  padding-bottom: 0.15rem;
+  border-bottom: 0.15rem solid #eee;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 3rem 0;
+}
+
+.content {
+  margin-top: 6rem;
+}
+
+.greetings {
+  border: none;
+  font-size: 1.4rem;
+}
+
+.icon:before {
+  font-family: 'fontello';
+  margin-right: 0.3rem;
+}
+
+.icon_companies:before {
+  content: '\e802';
+}
+
+.icon_posts:before {
+  content: '\e803';
+}
+
+.icon_tips:before {
+  content: '\f0eb';
+}
+
+.icon_messages:before {
+  content: '\f0e6';
+}
+
+.icon_logout:before {
+  content: '\e801';
+}
+
+.icon-link-ext:after {
+  content: '\f08e';
+  font-family: 'fontello';
+  font-size: 0.6em;
+  margin-left: 0.3rem;
+}
