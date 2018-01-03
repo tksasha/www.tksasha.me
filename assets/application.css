@@ -34,3 +34,7 @@ p > p {
 .collection.borderless > .collection-item {
   border: none;
 }
+
+.collection.tight > .collection-item {
+  padding: 5px 10px;
+}
